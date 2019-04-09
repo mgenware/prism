@@ -20,7 +20,10 @@ const paths = {
 		'components/prism-css.js',
 		'components/prism-clike.js',
 		'components/prism-javascript.js',
-		'plugins/file-highlight/prism-file-highlight.js'
+		'plugins/file-highlight/prism-file-highlight.js',
+		'plugins/line-numbers/prism-line-numbers.js',
+		'plugins/autoloader/prism-autoloader.js',
+		'plugins/custom-class/prism-custom-class.js',
 	],
 	plugins: ['plugins/**/*.js', '!plugins/**/*.min.js'],
 	showLanguagePlugin: 'plugins/show-language/prism-show-language.js',
